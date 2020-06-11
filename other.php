@@ -10,16 +10,6 @@
 		
 		public function __construct(){
 			//parent::__construct();
-			
-			// $arrSetting['MySQL']['login']		 = "";
-			// $arrSetting['MySQL']['passwd']		 = "";
-			// $arrSetting['MySQL']['database']		 = "";
-			// $arrSetting['MySQL']['host']			 = "localhost";
-			// $arrSetting['MySQL']['db_prefix']	 = "bld_";
-			// $arrSetting['MySQL']['codepage']		 = "cp1251";
-			
-			$this->sqlArrSetting = $arrSetting;
-			
 		}
 		
 		public function sql_set($key, $val){
