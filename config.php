@@ -3,7 +3,7 @@
 	
 	// настроки
 	$ArrConfig["Rows"]		 = 5;
-	$ArrConfig["MailTo"]	 = "see@itstr.pro";
+	$ArrConfig["MailTo"]	 = "admin@admin.adm";
 		
 	include_once("other.php");
 	$sql = new class_sql;
